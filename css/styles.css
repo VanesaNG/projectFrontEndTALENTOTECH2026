@@ -1,0 +1,181 @@
+/*GENERAL --------------------------------*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: "Cause";
+    font-size: 1.6rem;
+    background: #F9FBE7;
+    color: #FEA1A1;
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main{
+    width: 90%;
+    margin: auto;
+    
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.btn{
+    background-color: #bda0a0;
+    font-weight: 500;
+    border: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 1rem;
+    border-radius: 0.3rem;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+header, footer{
+    background-color: #FEA1A1;
+    color: #F9FBE7;
+    width: 100%;
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-header, .p-footer{
+    margin-left: 1.5rem;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    margin-right: 1.5rem;
+}
+
+.linksA{
+    text-decoration: none;
+    color: inherit;
+    display: inline-block;
+}
+
+/*INDEX ----------------------------------------*/
+
+.tituloYparrafo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5rem;
+    gap: 1rem;
+}
+
+.tituloYparrafo p{
+    width: 80%;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+/*SECCION TARJETAS INDEX ---------------------*/
+
+.seccion-tarjetas{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 3rem;
+}
+
+.tarjetas{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-bottom: 1rem;
+}
+
+.tarjeta-producto{
+    background-color: #F0EDD4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    gap: 0.8rem;
+    padding-bottom: 0.8rem;
+    width: 20rem;
+}
+
+.tarjeta-producto img{
+    width: 100%;
+    height: 20rem;
+    object-fit: cover;
+}
+
+h3{
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.tarjeta-producto p{
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+/*CONTACTO ---------------------*/
+
+.div-main-contacto{
+    width: 50%;
+    margin: 40px;
+    margin: auto;
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(../img/fondo6.jpg);
+    background-size: cover;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    border-radius: 2rem;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.div-label-input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.email, .mensaje{
+    border-radius: 1rem;
+    padding: 0.5rem;
+}
+
+.iconos-redes{
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+@media (max-width: 414px){
+
+    h2{
+        font-size: 1.3em;
+    }
+
+}
