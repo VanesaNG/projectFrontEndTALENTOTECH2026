@@ -1,0 +1,72 @@
+[
+    {
+        "id" : "1",
+        "nombre" : "Campera de Jean",
+        "descripcion" : "Camperita en todos los talles",
+        "precio" : "80000",
+        "img" : "img/camperaJean.jpg"
+    },
+    {
+        "id" : "2",
+        "nombre" : "Campera de Jean",
+        "descripcion" : "Camperita en todos los talles",
+        "precio" : "80000",
+        "img" : "img/musculosa.jpg"
+    },
+    {
+        "id" : "3",
+        "nombre" : "Campera de Jean",
+        "descripcion" : "Camperita en todos los talles",
+        "precio" : "80000",
+        "img" : "img/pantalonNegro.jpg"
+    },
+    {
+        "id" : "4",
+        "nombre" : "Campera de Jean",
+        "descripcion" : "Camperita en todos los talles",
+        "precio" : "80000",
+        "img" : "img/vestidoCuadritos.jpg"
+    },
+    {
+        "id" : "5",
+        "nombre" : "Campera de Jean",
+        "descripcion" : "Camperita en todos los talles",
+        "precio" : "80000",
+        "img" : "img/camperaCuero.jpg"
+    },
+    {
+        "id" : "6",
+        "nombre" : "Campera de Jean",
+        "descripcion" : "Camperita en todos los talles",
+        "precio" : "80000",
+        "img" : "img/jogging.jpg"
+    },
+    {
+        "id" : "7",
+        "nombre" : "Campera de Jean",
+        "descripcion" : "Camperita en todos los talles",
+        "precio" : "80000",
+        "img" : "img/camisa.jpg"
+    },
+    {
+        "id" : "8",
+        "nombre" : "Campera de Jean",
+        "descripcion" : "Camperita en todos los talles",
+        "precio" : "80000",
+        "img" : "img/saco.jpg"
+    },
+    {
+        "id" : "9",
+        "nombre" : "Campera de Jean",
+        "descripcion" : "Camperita en todos los talles",
+        "precio" : "80000",
+        "img" : "img/pollera.jpg"
+    },
+    {
+        "id" : "10",
+        "nombre" : "Campera de Jean",
+        "descripcion" : "Camperita en todos los talles",
+        "precio" : "80000",
+        "img" : "img/sweater.jpg"
+    }
+]

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/styles.css">
-    <title>Contacto</title>
+    <title>Carrito</title>
 </head>
 <body>
     <header>
@@ -17,22 +17,15 @@
             <li><a class="linksA" href="./carrito.html">Carrito (<span id="contador-carrito">0</span>) </a></li>
         </ul>
     </header>
-    <main class="main-contacto">
-        <div class="div-main-contacto">
-        <h1>Contacto</h1>
-        <form action="https://formspree.io/f/xkoybgbo" method="POST">
-            <div class="div-label-input">
-                <label for="email"> Your email: </label>
-                <input class="email" type="email" name="email">
-            </div>
-            <div class="div-label-input">
-                <label for="mensaje"> Your message: </label>
-                <textarea class="mensaje" name="message"></textarea>
-            </div>
-            <!-- your other form fields go here -->
-            <button class="btn" type="submit">Send</button>
-        </form>
+    <main>
+        <section class="seccion-tarjetas" >
+        <h1>Carrito de compras</h1>
+        <div id="contenedor-carrito" class="tarjetas">
+
         </div>
+        </section>
+        <div class="acciones-carrito" id="acciones-carrito"></div>
+
     </main>
     <footer>
         <p class="p-footer">© 2026 LinduritaShop - Todos los derechos reservados</p>
@@ -42,6 +35,6 @@
         </ul>
 
     </footer>
-    <script type="module" src="../js/contacto.js " ></script>
+    <script type="module" src="../js/carrito.js" ></script>
 </body>
 </html>
